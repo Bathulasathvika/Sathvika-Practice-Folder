@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>coursename__c</fullName>
+    <label>coursename</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>Data engineer</fullName>
+                <default>false</default>
+                <label>Data engineer</label>
+            </value>
+            <value>
+                <fullName>VLSI</fullName>
+                <default>false</default>
+                <label>VLSI</label>
+            </value>
+            <value>
+                <fullName>Embedded system</fullName>
+                <default>false</default>
+                <label>Embedded system</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

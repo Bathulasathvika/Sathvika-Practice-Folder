@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_list_view_created_by_me</fullName>
+    <columns>NAME</columns>
+    <filterScope>ScopingRule</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>equals</operation>
+        <value>Sathvika</value>
+    </filters>
+    <label>New list view created by me</label>
+</ListView>
